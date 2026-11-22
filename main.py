@@ -8,7 +8,8 @@ whitespace. This plan is exactly 258 code points: day 1 lists a $49
 landing-page service on Fiverr and Contra, then daily outreach (DM 30
 Google Maps businesses with a free AI-made homepage mockup, close 2 a day),
 profits reinvested into more mockups, with a likely day-30 range of
-$800-$1,500 and $100 kept as float.
+$800-$1,500 and $100 kept as float. Running this file is idempotent: it
+always writes the same bytes to /output/entry.txt.
 """
 
 from pathlib import Path
