@@ -4,11 +4,11 @@
 Writes the plan text to /output/entry.txt.
 
 Gate: the entry must be UTF-8 text of 1-280 Unicode code points, not only
-whitespace. This plan is 258 code points: day 1 lists a $49 landing-page
-service on Fiverr and Contra, then daily outreach (DM 30 Google Maps
-businesses with a free AI-made homepage mockup, close 2 a day), profits
-reinvested into more mockups, with a likely day-30 range of $800-$1,500
-and $100 kept as float.
+whitespace. This plan is exactly 258 code points: day 1 lists a $49
+landing-page service on Fiverr and Contra, then daily outreach (DM 30
+Google Maps businesses with a free AI-made homepage mockup, close 2 a day),
+profits reinvested into more mockups, with a likely day-30 range of
+$800-$1,500 and $100 kept as float.
 """
 
 from pathlib import Path
